@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>POMODORO TIMER</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="./style.css">
+	 
+
+</head>
+    <body>
+    	<h1 id="head">POMODORO TIMER </h1>
+        <div class="container">
+        	<div class="time-container">
+            <div class="time">
+            <p id="TIME" class="min">20:00</p>
+            </div>
+            </div>
+            <div class="session"><p>SESSION TIME</p><p id="STIME" style="font-size: 25px;">20 min</p>
+            <button id="plusSession" class="btn">+</button>
+            <button id="minusSession" class="btn">-</button>
+            </div>
+            <div class="break"><p>BREAK TIME</p><p id="BTIME" style="font-size: 25px;">5 min</p>
+            <button id="plusBreak" class="btn">+</button>
+            <button id="minusBreak" class="btn">-</button>		
+            </div>
+          <div class="sBtn" id="SBTN" style="display:block"> <button id="startButton" class="mainBtns">Start</button> </div>
+          <div class="sBtn" id="PBTN" style="display:none"> <button id="pauseButton" class="mainBtns">Pause</button> </div>
+          <div class="sBtn" id="CBTN" style="display:none"> <button id="continueButton" class="mainBtns">Resume</button> </div>
+          <div class="rBtn"> <button id="resetButton" class="mainBtns" >Reset</button> </div>
+
+        </div>
+
+        <audio></audio>
+    </body>
+    <script type="text/javascript" src="./style.js"></script>
+</html>
