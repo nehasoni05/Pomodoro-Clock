@@ -20,4 +20,4 @@
 <hr>
 <h2>Demo</h2>
 
-You can view the live project here-> <a href="https://pomodoroclock-3p34g896sokhx7f0f1.web.codequotient.com/">Pomodoro Clock</a>  
+You can view the live project here-> <a href="https://pomodoroclock-3p34g896sokhx7f0f1.web.codequotient.com/" target="_blank">Pomodoro Clock</a>  
